@@ -36,12 +36,15 @@ header {
     text-align: center;
     background: linear-gradient(180.0deg, var(--warm-black) 1.69%, var(--logo-orange)100%) ;
 }
+
 header img {
     position: relative;
     width: 160px;
     margin: 0 auto;
     top: 10px;
-}.header-title--container {
+}
+
+.header-title--container {
     width: 90%;
     min-width: 288px;
     max-width: 900px;
