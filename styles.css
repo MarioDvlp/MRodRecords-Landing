@@ -143,6 +143,28 @@ main {
 }
 
 .newReleases-container {
+    display: block;
+    position: relative;
     width: 100%;
-    height: 320px;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    background-color: #BF3706;
 }
+
+.newReleases-container article {
+    display: inline-block;
+    width: 230px;
+    height: 288px;
+    padding-top: 20px;
+    margin-top: 10px;
+    background-color: #1A9AF7;
+}
+.newReleases-container img {
+    position: relative;
+    width: 180px;
+    height: 180px;
+}
+
+/* El naranja y el azul son guias para saber cuales son los contenedores 
+/* Agregar un titulo para la parte de new releases*/
