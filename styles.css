@@ -11,9 +11,10 @@
     --some-blak: #0d0d0d;
     --warm-black: #201E1C;
     --black: #282623;
+    --button-orange: #F7975C;
     
     --secondary-blue: #1A9AF7;
-    --soft-blue: #E7F5FF;   
+    --soft-blue: #E7F5FF;
 }
 * {
     box-sizing: border-box;
@@ -143,28 +144,73 @@ main {
 }
 
 .newReleases-container {
-    display: block;
     position: relative;
     width: 100%;
     height: auto;
     padding-top: 10px;
     padding-bottom: 15px;
-    background-color: #BF3706;
+    background-color: var(--off-white);
 }
 
+.newReleases-container h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--warm-black);
+}
 .newReleases-container article {
-    display: inline-block;
     width: 230px;
     height: 288px;
     padding-top: 20px;
-    margin-top: 10px;
-    background-color: #1A9AF7;
+    margin: 10px auto;
+    border-radius: 5px;
+    box-shadow: 6px 2px 8px var(--grey);
 }
 .newReleases-container img {
     position: relative;
-    width: 180px;
-    height: 180px;
+    width: 160px;
+    height: 160px;
 }
 
-/* El naranja y el azul son guias para saber cuales son los contenedores 
-/* Agregar un titulo para la parte de new releases*/
+.newReleases-container .album-name {
+    font-size: 1.4rem;
+    line-height: 2.8rem;
+}
+
+.newReleases-container .price-paragraph {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.newReleases-container .article-price {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: red;
+}
+.newReleases-container .cart-button {
+    width: 125px;
+    height: 25px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 5px auto;
+    padding: 2px 15px;
+    background-color: var(--button-orange);
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+
+}
+
+.newReleases-container .cart-button span {
+
+    width: 20px;
+    height: 20px;
+    margin-left: 6px;
+    position: absolute;
+    left: 80px;
+    background-image: url(./Assets/icons/icons8-shopping-cart-32.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cart-button:hover {
+    background-color: #fd7623e0;
+}
