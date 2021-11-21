@@ -1,0 +1,3 @@
+Missing the responsive desingn for new releases container. Maybe add displey:flex for tablet and desktop size.
+Check the card-button, maybe is not necessary for the kind of page.
+star with the new container.
