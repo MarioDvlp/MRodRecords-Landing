@@ -142,26 +142,33 @@ main {
     line-height: 1.6rem;
     color: #757575;
 }
-
-.newReleases-container {
-    position: relative;
-    width: 100%;
-    height: auto;
-    padding-top: 10px;
-    padding-bottom: 15px;
-    background-color: var(--off-white);
-}
-
-.newReleases-container h2 {
+.newreleases {
     font-size: 2rem;
     font-weight: bold;
     color: var(--warm-black);
 }
+.newReleases-container {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 350px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    background-color: var(--off-white);
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
+
+
 .newReleases-container article {
-    width: 230px;
+    width: 70%;
+    scroll-snap-align: center;
+    min-width: 180px;
+    max-width: 220px;
     height: 288px;
     padding-top: 20px;
-    margin: 10px auto;
+    margin: 10px 15px;
     border-radius: 5px;
     box-shadow: 6px 2px 8px var(--grey);
 }
