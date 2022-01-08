@@ -344,3 +344,92 @@ main {
     font-weight: bold;
     color: var(--white);
 }
+
+
+/* ========================================================== */
+/* Footer */
+
+footer {
+    height: 150px;
+    display: flex;
+ 
+}
+
+.left-container {
+    background-color: #f29e80b4;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-container img {
+    width: 4.5rem;
+    height: 5rem;
+    filter: drop-shadow(2px 2px 1px #585858);
+
+}
+.right-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffe9d4b4;
+    width: 50%;
+    height: 100%;
+}
+.right-container ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.facebook-icon {
+    background-image: url(./Assets/icons/icons8-facebook-48.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    width: 40px;
+    height: 40px;
+
+}
+
+.facebook-icon:hover{
+    cursor: pointer;
+} 
+
+.insta-icon {
+    background-image: url(./Assets/icons/icons8-instagram-48.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    width: 40px;
+    height: 40px;
+}
+
+.insta-icon:hover{
+    cursor: pointer;
+}
+
+.twitter-icon {
+    background-image: url(./Assets/icons/icons8-twitter-48.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    width: 40px;
+    height: 40px;
+}
+
+.twitter-icon:hover{
+    cursor: pointer;
+}
+
+.drop-shadow {
+    filter: drop-shadow(2px 2px 2px #585858);
+}
+
