@@ -366,7 +366,7 @@ footer {
 .left-container img {
     width: 4.5rem;
     height: 5rem;
-    filter: drop-shadow(2px 2px 1px #585858);
+    filter: drop-shadow(2px 2px 0px #585858);
 
 }
 .right-container {
@@ -432,4 +432,3 @@ footer {
 .drop-shadow {
     filter: drop-shadow(2px 2px 2px #585858);
 }
-
