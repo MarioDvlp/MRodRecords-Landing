@@ -345,6 +345,147 @@ main {
     color: var(--white);
 }
 
+/* Plans */
+.main-plans--container {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.main-plans--container .plans--title {
+    padding: 5px 10px;
+}
+
+.plans--title h2 {
+    display: block;
+    position: relative;
+    margin-top: 20px;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 2.6rem;
+    text-align: center;
+}
+.plans--title p {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 300;
+    line-height: 1.8rem;
+    color: grey;
+}
+
+.plans-container--slider {
+    display: flex;
+    height: 316px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
+
+.plans-container--card {
+    position: relative;
+    scroll-snap-align: center;
+    width: 70%;
+    min-width: 190px;
+    max-width: 300px;
+    height: 250px;
+    margin: 50px 15px 0;
+    display: block;
+    padding: 20px;
+    background-color: var(--white);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(89 73 30 / 16%);
+}
+
+.plans-container--card p:first-child {
+    position: absolute;
+    left: calc(50% - 53px);
+    top: -15px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.6rem;
+    text-align: center;
+    padding: 10px;
+    width: 20%;
+    min-width: 108px;
+    max-width: 250px;
+    border-radius: 8px;
+    color: var(--white);
+}
+
+.background--orange {
+    background-color: var(--logo-orange);
+}
+.background--blue {
+    background-color: #1A9AF7;
+}
+.background--light-orange {
+    background-color: var(--ligth-orange);
+}
+
+.plans--card-text h3{
+    display: block;
+    position: relative;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 2.6rem;
+    margin-top: 12px;
+    text-align: center;
+}
+.plans--card-text .plans--price {
+    display: block;
+    position: relative;
+    font-size: 5.2rem;
+    font-weight: bold;
+    line-height: 2.8rem;
+    text-align: center;
+    letter-spacing: -0.10em;
+    margin-top: 40px;
+    margin-bottom: 35px;
+}
+
+.plans--price span {
+    font-size: 1.8rem;
+    position: relative;
+    top: -25px;
+    letter-spacing: 0.10em;
+    color: grey;
+}
+
+.plan-card--call {
+    position: relative;
+    display: block;
+    top: 10px;
+    width: 120px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 1px 2px 4px#808080;
+    background-color: var(--soft-blue);
+    margin: 0 auto;
+}
+.plan-card--call:hover {
+    background-color: var(--soft-orange);
+    cursor: pointer;
+}
+
+.plans--card-text .advise {
+    display: block;
+    position: relative;
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 1.2rem;
+    text-align: center;
+    top: -5px;
+    color: var(--grey);
+}
+.advise::before{
+    content: "*";
+}
+
 
 /* ========================================================== */
 /* Footer */
@@ -432,4 +573,3 @@ footer {
 .drop-shadow {
     filter: drop-shadow(2px 2px 2px #585858);
 }
-
