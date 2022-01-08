@@ -350,7 +350,7 @@ main {
 /* Footer */
 
 footer {
-    height: 150px;
+    height: 125px;
     display: flex;
  
 }
@@ -376,6 +376,7 @@ footer {
     background-color: #ffe9d4b4;
     width: 50%;
     height: 100%;
+    padding: 30px;
 }
 .right-container ul{
     width: 100%;
@@ -392,8 +393,8 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
     
-    width: 40px;
-    height: 40px;
+    width: 25px;
+    height: 25px;
 
 }
 
@@ -407,8 +408,8 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
     
-    width: 40px;
-    height: 40px;
+    width: 25px;
+    height: 25px;
 }
 
 .insta-icon:hover{
@@ -421,8 +422,8 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
     
-    width: 40px;
-    height: 40px;
+    width: 25px;
+    height: 25px;
 }
 
 .twitter-icon:hover{
@@ -431,4 +432,17 @@ footer {
 
 .drop-shadow {
     filter: drop-shadow(2px 2px 2px #585858);
+}
+
+.social-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.social-container p{
+    font-size: 1rem;
+    
 }
