@@ -492,6 +492,8 @@ main {
 
 footer {
     height: 100px;
+    min-height: ;
+    min-width: ;
     display: flex;
  
 }
@@ -503,6 +505,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 .left-container img {
     width: 4.5rem;
@@ -521,10 +524,13 @@ footer {
 }
 .right-container ul{
     width: 100%;
+    min-width: 120px;
+    min-height: 86px;
     list-style: none;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 
