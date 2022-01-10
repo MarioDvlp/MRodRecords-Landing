@@ -1,0 +1,37 @@
+.newReleases-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.product--card-container{
+    width: 920px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.feel-the-music-container{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+.feel-the-music--img-container{
+    max-width: 920px;
+    margin: 0 auto;
+}
+
+.main-plans--container{
+    padding: 0;
+    margin-top: 20px;
+}
+
+.plans--title{
+    margin-top: 40px;
+}
+
+.plans-container--slider{
+    display: flex;
+    justify-content: center;
+}
